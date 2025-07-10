@@ -1,0 +1,77 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    /* margin: 0;
+    padding: 0; */
+}
+
+/* Nav Style */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 158px;
+}
+
+.nav-logo {
+    font-family: Inter;
+    font-size: 34px;
+    font-weight: 900;
+    color: #4E47FF;
+}
+
+/* Button Style */
+
+.btn-primary {
+    width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: 1px solid #4E47FF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: auto 36px;
+    color: #FFFFFF;
+}
+
+.second-button {
+    width: 174px;
+}
+
+.third-button {
+    width: 229px;
+}
+
+/* First Banner */
+
+.first-banner {
+    margin: 100px 260px;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-banner-title {
+    font-size: 65px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 37px;
+}
+
+.header {
+    height: 698px;
+    /* border: 2px solid black; */
+    background-image: url(../Assets/Hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Main Style */
+main {
+    /* background-color: rgb(245, 248, 255); */
+    max-width: 1140px;
+    margin: 130px auto;
+}
