@@ -141,3 +141,52 @@ main {
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
 }
+
+/* Fourth Banner */
+
+.reviewer-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.reviewer-container div p {
+    font-size: 16px;
+    font-weight: 600;
+    color: #757575;
+}
+
+.reviewer-container div p span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+
+.reviewer-container img {
+    border-radius: 50%;
+}
+
+.card {
+    width: 365px;
+    box-sizing: border-box;
+    border: 1px solid rgb(242, 237, 237);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 24px;
+}
+
+.card-container {
+    display: flex;
+    gap: 20px;
+}
+
+.fourth-banner-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.fourth-banner {
+    margin-bottom: 116px;
+}
