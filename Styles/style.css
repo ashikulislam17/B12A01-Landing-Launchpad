@@ -1,5 +1,6 @@
 * {
-    font-family: "Plus Jakarta Sans", sans-serif;
+
+    font-family: Raleway;
     /* margin: 0;
     padding: 0; */
 }
@@ -189,4 +190,47 @@ main {
 
 .fourth-banner {
     margin-bottom: 116px;
+}
+
+/* Extra Banner */
+
+.extra-banner {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 116px;
+}
+
+.extra-banner h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+}
+
+.extra-banner p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    color: #00000080;
+}
+
+.extra-banner button {
+    width: 174px;
+    height: 48px;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    border: 1px solid #4E47FF;
+    font-size: 16px;
+    font-weight: 700;
+    padding: auto 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.extra-banner img {
+    border-radius: 48px;
 }
