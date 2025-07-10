@@ -75,3 +75,29 @@ main {
     max-width: 1140px;
     margin: 130px auto;
 }
+
+/* Second Banner */
+
+.second-banner {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-banner-title {
+    font-size: 42px;
+    font-family: 700;
+    color: #252432;
+    margin-bottom: 23px;
+}
+
+.second-banner-description {
+    font-size: 24px;
+    font-weight: 400;
+    color: #25243280;
+    margin-bottom: 23px;
+}
+
+.second-banner img {
+    border-radius: 48px;
+}
