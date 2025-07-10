@@ -101,3 +101,43 @@ main {
 .second-banner img {
     border-radius: 48px;
 }
+
+/* Third Banner */
+
+.third-banner {
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 80px;
+    margin-top: 116px;
+    margin-bottom: 116px;
+}
+
+.views-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.third-banner-title {
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.view-title {
+    font-family: Inter;
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(78, 71, 255);
+    text-align: center;
+}
+
+.view-description {
+
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
