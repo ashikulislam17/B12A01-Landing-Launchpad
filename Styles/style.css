@@ -1,7 +1,5 @@
 * {
     font-family: Raleway;
-    /* margin: 0;
-    padding: 0; */
 }
 
 /* Nav Style */
@@ -70,27 +68,26 @@ nav {
 
 .header {
     height: 698px;
-    /* border: 2px solid black; */
     background-image: url(../Assets/Hero-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-/* Main Style */
-main {
-    /* background-color: rgb(245, 248, 255); */
-    max-width: 1140px;
-    margin: 130px auto;
-}
+/* Main Style (Default Margin & Banner Sizing) */
 
 body {
+    margin: 0 auto;
     background-color: #F5F8FF;
+}
+
+main {
+    max-width: 1140px;
+    margin: 130px auto;
 }
 
 /* Second Banner */
 
 .second-banner {
-    /* border: 2px solid black; */
     display: flex;
     justify-content: space-between;
 }
@@ -116,7 +113,6 @@ body {
 /* Third Banner */
 
 .third-banner {
-    /* height: 306px; */
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     padding: 50px 80px;
@@ -134,20 +130,19 @@ body {
     font-weight: 700;
     color: #252432;
     text-align: center;
-    /* margin-bottom: 40px; */
+    margin-bottom: 0px;
 }
 
 .view-title {
-
     font-family: Inter;
     font-size: 80px;
     font-weight: 700;
     color: rgb(78, 71, 255);
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .view-description {
-
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -287,7 +282,7 @@ input[type="text"] {
     height: 22px;
     margin-bottom: 15px;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid rgb(214, 221, 237);
     padding: 20px 32px;
 }
 
@@ -296,7 +291,7 @@ input[type="email"] {
     height: 22px;
     margin-bottom: 15px;
     border-radius: 10px;
-    border: 1px solid white;
+    border: 1px solid rgb(214, 221, 237);
     padding: 20px 32px;
 }
 
@@ -304,8 +299,8 @@ textarea {
     width: 520px;
     height: 70px;
     margin-bottom: 25px;
-    border-radius: 5px;
-    border: 1px solid white;
+    border-radius: 10px;
+    border: 1px solid rgb(214, 221, 237);
     padding-top: 18px;
     padding: 32px 20px;
 }
@@ -344,11 +339,13 @@ label {
 
 /* Footer Style  */
 
-.last-banner {
-    /* border: 2px solid black; */
+footer {
+    border: 1px solid white;
+    background-color: white;
+    max-width: 100%;
     text-align: center;
-    margin-bottom: 116px;
-
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
 
 .footer-long-div {
@@ -382,7 +379,6 @@ label {
     font-size: 16px;
     font-weight: 400;
     color: #8987A1;
-
 }
 
 .footer-short-div p a {
