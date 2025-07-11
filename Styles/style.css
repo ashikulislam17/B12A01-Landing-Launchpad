@@ -1,5 +1,4 @@
 * {
-
     font-family: Raleway;
     /* margin: 0;
     padding: 0; */
@@ -43,6 +42,13 @@ nav {
     width: 229px;
 }
 
+* button:hover {
+    font-size: 18px;
+    background-color: #FFD447;
+    border: 1px solid #FFD447;
+    transition: 2s;
+}
+
 /* First Banner */
 
 .first-banner {
@@ -77,6 +83,10 @@ main {
     margin: 130px auto;
 }
 
+body {
+    background-color: #F5F8FF;
+}
+
 /* Second Banner */
 
 .second-banner {
@@ -106,6 +116,7 @@ main {
 /* Third Banner */
 
 .third-banner {
+    /* height: 306px; */
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 24px;
     padding: 50px 80px;
@@ -123,10 +134,11 @@ main {
     font-weight: 700;
     color: #252432;
     text-align: center;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .view-title {
+
     font-family: Inter;
     font-size: 80px;
     font-weight: 700;
@@ -168,6 +180,7 @@ main {
 }
 
 .card {
+    box-shadow: 3px 3px 20px #B3B3B3;
     width: 365px;
     box-sizing: border-box;
     border: 1px solid rgb(242, 237, 237);
@@ -186,6 +199,7 @@ main {
     font-weight: 700;
     color: black;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .fourth-banner {
@@ -195,19 +209,23 @@ main {
 /* Extra Banner */
 
 .extra-banner {
+    background-color: white;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 14px;
+    box-shadow: 3px 3px 20px #B3B3B3;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 116px;
+    padding: 50px;
 }
 
 .extra-banner h2 {
     font-size: 50px;
     font-weight: 700;
     color: black;
+    margin-bottom: 20px;
 }
 
 .extra-banner p {
@@ -231,6 +249,13 @@ main {
 
 }
 
+.extra-banner button:hover {
+    font-size: 18px;
+    background-color: #FFD447;
+    border: 1px solid #FFD447;
+    transition: 2s;
+}
+
 .extra-banner img {
     border-radius: 48px;
 }
@@ -238,8 +263,6 @@ main {
 /* Fifth Banner */
 
 .fifth-banner {
-    border: 2px solid black;
-    background-color: #F5F8FF;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -280,7 +303,7 @@ input[type="email"] {
 textarea {
     width: 520px;
     height: 70px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
     border-radius: 5px;
     border: 1px solid white;
     padding-top: 18px;
@@ -293,7 +316,8 @@ textarea {
 }
 
 input[type="submit"] {
-    width: 174px;
+    display: block;
+    width: 100%;
     height: 48px;
     background-color: #4E47FF;
     border-radius: 10px;
@@ -302,6 +326,13 @@ input[type="submit"] {
     font-weight: 700;
     padding: auto 36px;
     color: #FFFFFF;
+}
+
+input[type="submit"]:hover {
+    font-size: 18px;
+    background-color: #FFD447;
+    border: 1px solid #FFD447;
+    transition: 2s;
 }
 
 label {
@@ -315,6 +346,7 @@ label {
 
 .last-banner {
     /* border: 2px solid black; */
+    text-align: center;
     margin-bottom: 116px;
 
 }
@@ -355,5 +387,10 @@ label {
 
 .footer-short-div p a {
     text-decoration: none;
+    color: #8987A1;
+}
+
+.copyright {
+    font-family: Inter;
     color: #8987A1;
 }
